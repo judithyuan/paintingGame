@@ -1,0 +1,86 @@
+/* pages/create/index.wxss */
+page{
+  height: 100%;
+  background-color: #f6f6f6;
+}
+.canvas-container{
+  background-color: #fff;
+  width: 624rpx;
+  height: calc(100% - 530rpx);
+  margin: 0 auto;
+  box-shadow: 0 5rpx 10rpx 1rpx rgba(0, 0, 0, 0.04);
+  border-radius: 12rpx;
+  margin-top: 20rpx;
+}
+.handle-bar{
+  width: 690rpx;
+  margin: 30rpx auto 0 auto;
+}
+.step{
+  width: 144rpx;
+}
+.step image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.show{
+  width: 228rpx;
+}
+.save{
+  width: 144rpx;
+}
+.btn{
+  width: 100rpx;
+  line-height: 50rpx;
+  border-radius: 25rpx;
+  color: white;
+  font-size: 28rpx;
+  text-align: center;
+}
+.bottom{
+  position: fixed;
+  height: 270rpx;
+  bottom: 0;
+  width: 100%;
+}
+.arc-container{
+  height: 66rpx;
+  position: relative;
+  overflow: hidden;
+}
+.arc{
+  width: 2400rpx;
+  height: 2400rpx;
+  left: calc(50% - 1200rpx);
+  border-radius: 100%;
+  position: absolute;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 66rpx;
+}
+.color-container{
+  background-color: red;
+  height: calc(100% - 66rpx);
+  padding: 0 28rpx;
+}
+.switch{
+  width: 30rpx;
+  height: 56rpx;
+}
+.flex-stagger{
+  /* display: flex; */
+  width: 630rpx;
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  padding: 0 70rpx;
+}
+.circle{
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 100%;
+  border: 4rpx solid white;
+}

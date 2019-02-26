@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/create/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"white",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "填色游戏",
+    "navigationBarTextStyle":"white",
+    "navigationStyle": "custom"
+  }
+}

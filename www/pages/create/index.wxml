@@ -1,0 +1,58 @@
+<!--pages/create/index.wxml-->
+<!-- 系统状态栏 -->
+<view class='status-bar'>
+  <view class='return'><image src='/static/img/return.png' class='return-icon'></image>创作</view>
+  <image src='/static/img/create_status_bar.png' class='bg-img'></image>
+</view>
+
+<!-- 画布 -->
+<view class='canvas-container'>
+
+</view>
+
+<!-- 操作按钮栏 -->
+<view class='flex handle-bar'>
+  <view class='flex step'>
+    <!-- 可后退 -->
+    <image src='http://coder.51tui.vip/Public/color/create/08.png'></image>
+    <!-- 不可后退 -->
+    <!-- <image src='http://coder.51tui.vip/Public/color/create/25.png'></image> -->
+
+    <!-- 可到下一步 -->
+    <image src='http://coder.51tui.vip/Public/color/create/26.png'></image>
+    <!-- 不可到下一步 -->
+    <!-- <image src='http://coder.51tui.vip/Public/color/create/10.png'></image> -->
+  </view>
+
+  <view class='flex show'>
+    <view style='background-color:#7bc8f3' class='btn'>炫耀</view>
+    <view style='background-color:#62cc93' class='btn'>拍卖</view>
+  </view>
+  <view class='save flex'>
+    <view></view>
+    <view style='background-color:#fc5c0e' class='btn'>保存</view>
+  </view>
+</view>
+
+
+<!-- 颜色选择区域 -->
+<swiper class='bottom' bindchange="change">
+  <swiper-item wx:for="{{all_colors}}" wx:key="{{index}}">
+    <view class='arc-container'>
+      <view class='arc' style="background:#{{all_colors[active_index][0]}}">{{names[active_index]}}</view>
+    </view>
+    <view class='color-container flex' style="background:#{{all_colors[active_index][0]}}">
+      <image src='/static/img/return.png' class='switch'></image>
+      <!-- 可选颜色区域-涂色 -->
+      <view class='flex-stagger'>
+        <view class='circle' 
+        wx:for="{{all_colors[active_index]}}"
+        wx:for-item="specific_color" 
+        wx:for-index="i" 
+        wx:key="{{i}}"
+        style="background:#{{specific_color}};margin-left:{{i!=0&&i!=10?(i%5===0?'50rpx':'40rpx'):'0rpx'}}"></view>
+      </view>
+      <image src='/static/img/next.png' class='switch'></image>
+    </view>
+  </swiper-item>
+</swiper>
