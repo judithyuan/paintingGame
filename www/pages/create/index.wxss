@@ -67,8 +67,8 @@ page{
   padding: 0 28rpx;
 }
 .switch{
-  width: 30rpx;
-  height: 56rpx;
+  width: 34rpx;
+  height: 54rpx;
 }
 .flex-stagger{
   /* display: flex; */

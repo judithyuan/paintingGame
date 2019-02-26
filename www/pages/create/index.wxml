@@ -39,14 +39,14 @@
 <swiper class='bottom' bindchange="change">
   <swiper-item wx:for="{{all_colors}}" wx:key="{{index}}">
     <view class='arc-container'>
-      <view class='arc' style="background:#{{all_colors[active_index][0]}}">{{names[active_index]}}</view>
+      <view class='arc' style="background:#{{all_colors[index][0]}}">{{names[active_index]}}</view>
     </view>
-    <view class='color-container flex' style="background:#{{all_colors[active_index][0]}}">
+    <view class='color-container flex' style="background:#{{all_colors[index][0]}}">
       <image src='/static/img/return.png' class='switch'></image>
       <!-- 可选颜色区域-涂色 -->
       <view class='flex-stagger'>
         <view class='circle' 
-        wx:for="{{all_colors[active_index]}}"
+        wx:for="{{all_colors[index]}}"
         wx:for-item="specific_color" 
         wx:for-index="i" 
         wx:key="{{i}}"
