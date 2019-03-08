@@ -1,7 +1,11 @@
 {
   "pages":[
-    "pages/create/index",
+    "pages/usercenter/index",
+    "pages/detail/index",
     "pages/index/index",
+    "pages/show/index",
+    "pages/create/index",
+    "pages/sell/index",
     "pages/logs/logs"
   ],
   "window":{
@@ -10,5 +14,36 @@
     "navigationBarTitleText": "填色游戏",
     "navigationBarTextStyle":"white",
     "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#808080",
+    "selectedColor": "#fed43c",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "画画",
+        "iconPath": "static/img/painting.png",
+        "selectedIconPath": "static/img/painting_selected.png"
+      },
+      {
+        "pagePath": "pages/show/index",
+        "text": "展览",
+        "iconPath": "static/img/show.png",
+        "selectedIconPath": "static/img/show_selected.png"
+      },
+      {
+        "pagePath": "pages/sell/index",
+        "text": "拍卖",
+        "iconPath": "static/img/sell.png",
+        "selectedIconPath": "static/img/sell_selected.png"
+      },
+      {
+        "pagePath": "pages/usercenter/index",
+        "text": "我的",
+        "iconPath": "static/img/user_center.png",
+        "selectedIconPath": "static/img/user_center_selected.png"
+      }
+    ]
   }
 }

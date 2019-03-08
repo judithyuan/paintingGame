@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="container">
+<!-- <view class="container">
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -10,4 +10,49 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+</view> -->
+<!-- 系统状态栏 -->
+<view class='status-bar'>
+  <view class='return'>色彩花园</view>
+  <image src='/static/img/create_status_bar.png' class='bg-img'></image>
+</view>
+<view class='header flex'>
+  <view class='left flex'>
+    <image src='/static/img/pen.png'></image>
+    <view class='btn'>
+      <text>39249梵高力</text>
+      <image src='/static/img/add.png' class='add'></image>
+    </view>
+  </view>
+  <!-- <button class='service'> -->
+    <image src='/static/img/service.png' class='service-img'></image>
+  <!-- </button> -->
+</view>
+<view class='center'>
+  <view class='list-title flex'>
+    <view>中国古建筑</view>
+    <view class='more'><text>More</text><image src='/static/img/more.png'></image></view>
+  </view>
+  <view class='flex'>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <!-- <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image> -->
+          <text>322次创作</text>
+        </view>
+        <view class='avatar'>
+        <!-- 最多放3个 -->
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='load-more'>
+    <image src='/static/img/more2.png'></image>
+  </view>
+
+ 
 </view>

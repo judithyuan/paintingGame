@@ -1,0 +1,52 @@
+/* pages/show/index.wxss */
+page{
+  background-color: #f6f6f6;
+}
+.center{
+  padding: 26rpx;
+}
+.center .item{
+  width: 334rpx;
+  height: 440rpx;
+  border-radius: 16rpx;
+  background-color: #fff;
+  box-shadow: 0 0 8rpx 1rpx rgba(0, 0, 0,0.04);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 24rpx;
+}
+.center .item>image{
+  width: 100%;
+  height: 100%;
+}
+.desc{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 56rpx;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0 20rpx;
+}
+.author{
+  height: 100%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.author>image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+  border-radius: 100%;
+}
+.price image{
+  width: 20rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.price{
+  color: #fdc92f;
+}
+.price text{
+  vertical-align: middle;
+}

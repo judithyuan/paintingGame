@@ -1,0 +1,17 @@
+<!--pages/detail/index.wxml-->
+<!-- 系统状态栏 -->
+<view class='status-bar'>
+  <view class='return'><image src='/static/img/return.png' class='return-icon'></image>作品</view>
+  <image src='/static/img/create_status_bar.png' class='bg-img'></image>
+</view>
+<!-- 画布 -->
+<view class='canvas-container'>
+  <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+</view>
+
+<view class='paint'>
+  <image src='/static/img/paint.png'></image>
+  <view>我来画</view>
+</view>
+
+<ad></ad>

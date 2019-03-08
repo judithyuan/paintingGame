@@ -1,6 +1,10 @@
 /**app.wxss**/
+page{
+  font-size: 30rpx;
+}
 view,text{
-  line-height: 1
+  line-height: 1;
+  box-sizing: border-box;
 }
 .container {
   height: 100%;
@@ -14,8 +18,9 @@ view,text{
 /* 状态栏------------通用 */
 .status-bar{
   width: 100%;
-  height: 130rpx;
+  height: 146rpx;
   color: white;
+  font-size: 34rpx;
 }
 .status-bar .return-icon{
   width: 20rpx;
@@ -28,14 +33,24 @@ view,text{
 }
 .return{
   position: absolute;
-  left: 15rpx;
-  top: 62rpx;
+  left: 26rpx;
+  top: 80rpx;
 }
-
+button{
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  border: 1rpx solid transparent;
+  outline: none
+}
+.button-hover{
+  background-color: transparent;
+}
 
 /* 弹性布局 */
 .flex{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }

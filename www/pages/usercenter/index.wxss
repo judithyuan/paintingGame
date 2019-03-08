@@ -1,0 +1,203 @@
+/* pages/usercenter/index.wxss */
+page{
+  background-color: #f6f6f6;
+}
+.top{
+  height: 294rpx;
+  background-image: url("http://color.51tui.vip/Public/color/my/01.png");
+  background-size: 100% 100%;
+  padding-top: 66rpx;
+}
+.top .left{
+  width: 370rpx;
+  padding-left: 50rpx;
+}
+.top .info{
+  display: inline-block;
+  vertical-align: top;
+}
+.buy-btn{
+  width: 168rpx;
+  line-height: 52rpx;
+  text-align: center;
+  font-size: 26rpx;
+  border-radius: 26rpx;
+  color: #fc9943;
+  background-color: #fcf2d4;
+  margin-top: 10rpx;
+}
+.title{
+  font-size: 34rpx;
+  color: #fff;
+  padding-left: 20rpx;
+  margin-bottom: 36rpx;
+}
+
+.avatar{
+  width: 126rpx;
+  height: 126rpx;
+  border-radius: 63rpx;
+  margin-right: 24rpx;
+}
+.info .id{
+  color: #fff;
+}
+.coins image{
+  width: 14rpx;
+  height: 34rpx;
+}
+.coins text{
+  color: #fc9943;
+  font-size: 26rpx
+}
+.service{
+  width: 220rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 30rpx 0 0 30rpx;
+  background-color: #fc780e;
+  background-image: url("http://color.51tui.vip/Public/color/my/22.png");
+  background-size: 46rpx;
+  background-repeat: no-repeat;
+  background-position: 30rpx;
+  padding-left: 90rpx;
+  text-align: left;
+  padding-right: 0;
+  margin-right: 0;
+}
+.earnings{
+  background-color: #fff;
+  padding: 26rpx 30rpx;
+  text-align: center;
+}
+.earnings image{
+  width: 40rpx;
+  height: 42rpx;
+  margin-right: 12rpx;
+}
+.earnings text{
+  font-size: 22rpx;
+  color: #fed766;
+}
+.earnings .item{
+  min-width: 140rpx;
+}
+
+.list-title{
+  /* line-height: 92rpx; */
+  margin-bottom: 24rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.center{
+  padding: 26rpx;
+}
+.center .item{
+  width: 334rpx;
+  height: 440rpx;
+  border-radius: 16rpx;
+  background-color: #fff;
+  box-shadow: 0 0 8rpx 1rpx rgba(0, 0, 0,0.04);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 24rpx;
+}
+.center .item>image{
+  width: 100%;
+  height: 100%;
+}
+.desc{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 56rpx;
+  background-color: rgba(0,0,0,0.5);
+  padding: 0 20rpx;
+}
+.author{
+  height: 100%;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.author>image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+  border-radius: 100%;
+}
+.price image{
+  width: 20rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.price{
+  color: #fdc92f;
+}
+.price text{
+  vertical-align: middle;
+}
+
+
+/* 购买弹窗 */
+.mask{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0,0.4)
+}
+.content{
+  box-sizing: border-box;
+  padding: 10rpx;
+  width: 584rpx;
+  height: 600rpx;
+  background-color: #fac622;
+  border-radius: 18rpx;
+  position: absolute;
+  top: calc(50% - 300rpx);
+  left:calc(50% - 288rpx);
+}
+.content>view{
+  /* width: 560rpx;
+  height: 570rpx; */
+  background-color: #fff8db;
+  border-radius: 14rpx;
+  height: 100%;
+  padding-top: 40rpx;
+}
+.iine{
+  width: 170rpx;
+  height: 5rpx;
+  vertical-align: middle;
+}
+.line-right{
+  transform: rotate(180deg)
+}
+.pop-title text{
+  vertical-align: middle;
+  padding: 0 10rpx;
+  color: #fc770e;
+  font-size: 36rpx;
+}
+.content .item .pen{
+  width: 22rpx;
+  height: 34rpx;
+  /* vertical-align: middle; */
+  margin-right: 4rpx;
+} 
+.content .item {
+  padding: 0 18rpx 0 30rpx;
+  margin-top: 40rpx;
+}
+.pay-btn{
+  width: 114rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 25rpx;
+  background-color: #fc770e;
+}

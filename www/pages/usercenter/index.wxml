@@ -1,0 +1,182 @@
+<!--pages/usercenter/index.wxml-->
+
+<view class='top'>
+  <view class='title'>我的</view>
+  <view class='flex'>
+    <view class='left'>
+      <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg' class='avatar'></image>
+      <view class='info'>
+        <view class='id'>ID20</view>
+        <view class='coins'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>200</text>
+        </view>
+        <view class='buy-btn'>购买梵高力</view>
+      </view>
+    </view>
+    <button open-type='contact' class='service'>联系客服</button>
+  </view>
+</view>
+
+<view class='flex earnings'>
+  <view class='item flex'>
+    <image src='http://color.51tui.vip/Public/color/my/07.png'></image>
+    <view>
+      <view>签到</view>
+      <text>(+5梵高力)</text>
+    </view>
+  </view>
+  <view class='item flex'>
+    <image src='http://color.51tui.vip/Public/color/my/10.png'></image>
+    <view>
+      <view>邀请</view>
+      <text>(+5梵高力)</text>
+    </view>
+  </view>
+  <view class='item flex'>
+    <image src='http://color.51tui.vip/Public/color/my/12.png'></image>
+    <view>
+      <view>分享群</view>
+      <text>(+5梵高力)</text>
+    </view>
+  </view>
+</view>
+<!-- 我的购买 -->
+<view class='center'>
+  <view class='list-title'>我的购买</view>
+  <view class='flex'>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 我的作品 -->
+  <view class='list-title'>我的作品</view>
+  <view class='flex'>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+    <view class='item'>
+      <image src='http://color.51tui.vip/Public/color/my/27.png'></image>
+      <view class='desc flex'>
+        <view class='author'>
+          <image src='https://img1.doubanio.com/view/site/large/public/5c5b6238cffb4ab.jpg'></image>
+          <text>dsf</text>
+        </view>
+        <view class='price'>
+          <image src='http://color.51tui.vip/Public/color/my/30.png'></image>
+          <text>2323</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 弹窗 -->
+<view class='mask'></view>
+<view class='content'>
+  <view>
+    <view class='pop-title'>
+      <image src='/static/img/line.jpg'  class='iine'></image>
+      <text>购买梵高力</text>
+      <image src='/static/img/line.jpg'  class='iine line-right'></image>
+    </view>
+    <view class='item flex'>
+      <view>
+        <image src='/static/img/pen.png' class='pen'></image>
+        <text>+10点梵高力</text>
+      </view>
+      <view class='pay-btn'>￥2</view>
+    </view>
+    <view class='item flex'>
+      <view>
+        <image src='/static/img/pen.png' class='pen'></image>
+        <text>+10点梵高力</text>
+      </view>
+      <view class='pay-btn'>￥2</view>
+    </view>
+  </view>
+</view>
